@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Push</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>Push notification service demo</h1>
+    <button type="button" id="subscribe">Подписаться на уведомления</button>
+    <button type="button" id="unsubscribe">Отписаться от уведомлений</button><br><br>
+
+    <div class="send-notification">
+        <form>
+            <label for="title">Заголовок</label><br>
+            <input type="text" id="title" name="title"><br>
+            <label for="body">Содержание сообщения</label><br>
+            <input type="text" id="body" name="body"><br>
+            <label for="image">Адрес изображения</label><br>
+            <input type="text" id="image" name="image"><br><br>
+        </form> 
+        <button type="button" id="send">Отправить уведомление</button>
+    </div><br>
+    
+    <form>
+        <label for="topic"><h3>Темы</h3></label>
+        <select id="topic" name="topic">
+            <option value="news">News</option>
+            <option value="cinema">Cinema</option>
+            <option value="music">Music</option>
+        </select>
+    </form><br>
+
+    <button type="button" id="topic-subscribe">Подписаться на тему</button>
+    <button type="button" id="topic-unsubscribe">Отписаться от темы</button><br><br>
+
+    <div class="send-notification">
+        <form>
+            <label for="topic">Тема</label><br>
+            <select id="topic-send" name="topic-send">
+                <option value="news">News</option>
+                <option value="cinema">Cinema</option>
+                <option value="music">Music</option>
+            </select><br>
+
+            <label for="title-topic">Заголовок</label><br>
+            <input type="text" id="title-topic" name="title-topic"><br>
+            <label for="body-topic">Содержание сообщения</label><br>
+            <input type="text" id="body-topic" name="body-topic"><br>
+            <label for="image-topic">Адрес изображения</label><br>
+            <input type="text" id="image-topic" name="image-topic"><br><br>
+        </form>
+        <button type="button" id="send-by-topic">Отправить сообщения по теме</button><br><br>
+    </div>
+</body>
+<script type="text/javascript" src="services/notificationService.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="//www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script type="text/javascript" src="//www.gstatic.com/firebasejs/8.10.0/firebase-messaging.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</html>

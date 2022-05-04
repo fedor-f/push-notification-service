@@ -1,0 +1,49 @@
+.send-notification {
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+body {
+    text-align: center;
+}
+
+button {
+    width: 30%;
+    background-color: #4b8abd;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #5f97c5;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button:active {
+    transform: scale(0.99);
+}
