@@ -28,10 +28,15 @@ Users of the demo app can:
 * Unsubscribe from a topic of messages
 * Send a message by its topic
 
-
+Main page:
 <img width="1070" alt="Снимок экрана 2022-08-25 в 00 51 23" src="https://user-images.githubusercontent.com/70920112/186534297-f2c7eba1-e3de-4a68-85ca-6f994972cf09.png">
-<img width="1070" alt="Снимок экра<img width="721" alt="Снимок экрана 2022-08-25 в 00 53 19" src="https://user-images.githubusercontent.com/70920112/186534379-c93f4215-e00c-41ef-9710-c4961047ec02.png">
-на 2022-08-25 в 00 51 36" src="https://user-images.githubusercontent.com/70920112/186534319-9393031d-4fb6-4a2b-8a1e-0ab74ac1b9ed.png">
+
+<img width="1070" alt="Снимок экрана 2022-08-25 в 00 51 36" src="https://user-images.githubusercontent.com/70920112/186534553-a2c93737-3f97-4a4e-becc-2bef9875c389.png">
+
+Sending a message from another browser and getting a message in inactive browser:
+<img width="1440" alt="Снимок экрана 2022-08-25 в 00 56 09" src="https://user-images.githubusercontent.com/70920112/186534662-0f1a9364-d11c-4d7d-9029-afd394c54055.png">
+
+![Uploading Снимок экрана 2022-08-25 в 00.59.12.png…]()
 
 
 
