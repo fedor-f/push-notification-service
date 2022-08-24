@@ -36,5 +36,5 @@ Main page:
 Sending a message from another browser and getting a message in inactive browser:<br>
 <img width="1440" alt="Снимок экрана 2022-08-25 в 00 56 09" src="https://user-images.githubusercontent.com/70920112/186534662-0f1a9364-d11c-4d7d-9029-afd394c54055.png">
 
-
-
+Sending a message by its topic:
+<img width="1440" alt="Снимок экрана 2022-08-25 в 00 59 12" src="https://user-images.githubusercontent.com/70920112/186535335-c242ce2e-20ff-4dc7-976e-380963638568.png">
